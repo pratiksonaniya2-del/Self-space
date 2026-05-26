@@ -57,7 +57,7 @@ export default function Chat() {
         const token = localStorage.getItem("token");
 
         const response = await axios.get(
-          "https://https://self-space.onrender.com0/chats",
+          "https://self-space.onrender.com/chats",
 
           {
             headers: {
@@ -81,7 +81,7 @@ export default function Chat() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        `https://https://self-space.onrender.com0/messages/${selectedChatId}`,
+        `https://self-space.onrender.com/messages/${selectedChatId}`,
 
         {
           headers: {
@@ -124,7 +124,7 @@ export default function Chat() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `https://https://self-space.onrender.com0/delete-chat/${selectedChatId}`,
+        `https://self-space.onrender.com/delete-chat/${selectedChatId}`,
 
         {
           headers: {
@@ -167,7 +167,7 @@ export default function Chat() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "https://https://self-space.onrender.com0/chat",
+        "https://self-space.onrender.com/chat",
 
         {
           message: currentInput,
