@@ -14,7 +14,7 @@ function Auth() {
 
   const handleSignup = async () => {
     try {
-      const response = await fetch("http://localhost:5000/signup", {
+      const response = await fetch("https://self-space.onrender.com0/signup", {
         method: "POST",
 
         headers: {
