@@ -31,7 +31,7 @@ export default function TrackYourself() {
         const token = localStorage.getItem("token");
 
         const response = await axios.get(
-          "https://self-space.onrender.com0/mood-stats",
+          "https://https://self-space.onrender.com0/mood-stats",
 
           {
             headers: {

@@ -52,7 +52,7 @@ export default function Habits() {
 
 
       const habitsResponse = await axios.get(
-        "https://self-space.onrender.com0/habits",
+        "https://https://self-space.onrender.com0/habits",
 
         {
           headers: {
@@ -65,7 +65,7 @@ export default function Habits() {
 
 
       const statsResponse = await axios.get(
-        "https://self-space.onrender.com0/user-stats",
+        "https://https://self-space.onrender.com0/user-stats",
 
         {
           headers: {
@@ -88,7 +88,7 @@ export default function Habits() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "https://self-space.onrender.com0/add-habit",
+        "https://https://self-space.onrender.com0/add-habit",
 
         {
           title: habitInput,
@@ -115,7 +115,7 @@ export default function Habits() {
       const token = localStorage.getItem("token");
 
       const response = await axios.put(
-        `https://self-space.onrender.com0/toggle-habit/${id}`,
+        `https://https://self-space.onrender.com0/toggle-habit/${id}`,
 
         {},
 
@@ -134,7 +134,7 @@ export default function Habits() {
 
 
       const statsResponse = await axios.get(
-        "https://self-space.onrender.com0/user-stats",
+        "https://https://self-space.onrender.com0/user-stats",
 
         {
           headers: {
